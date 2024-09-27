@@ -82,10 +82,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
+    alignItems:'centre',
     backgroundColor: '#ecf0f1',
     padding: 16,
   },
   card: {
+    flex: 1,
+    justifyContent: 'center',
     padding: 16,
     borderRadius: 8,
   },
@@ -105,7 +108,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   signUpButton: {
-    backgroundColor: '#3498db',
+    backgroundColor: 'blue',
     paddingVertical: 12,
     borderRadius: 8,
     alignItems: 'center',

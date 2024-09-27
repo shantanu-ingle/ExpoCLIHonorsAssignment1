@@ -6,6 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import LoginScreen from './LoginScreen';
 import CreateAccountScreen from './CreateAccountScreen';
 import MainScreen from './MainScreen'; // The screen with job details and buttons
+import ForgotPasswordScreen from './ForgotPasswordScreen';
 
 const Stack = createStackNavigator();
 
@@ -27,6 +28,11 @@ export default function App() {
           name="Main" 
           component={MainScreen} 
           options={{ title: 'Main Screen' }} 
+        />
+        <Stack.Screen 
+          name="ForgotPassword" 
+          component={ForgotPasswordScreen} 
+          options={{ title: 'Forgot password Screen' }} 
         />
       </Stack.Navigator>
     </NavigationContainer>

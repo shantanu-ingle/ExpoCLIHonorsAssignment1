@@ -38,10 +38,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
+    alignItems:'centre',
     backgroundColor: '#ecf0f1',
     padding: 16,
   },
   card: {
+    flex: 1,
+    justifyContent: 'center',
     padding: 16,
     borderRadius: 8,
   },
